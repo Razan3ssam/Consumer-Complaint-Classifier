@@ -1,0 +1,30 @@
+{
+  "LSTM": {
+    "accuracy": 0.8206,
+    "precision_macro": 0.7931,
+    "recall_macro": 0.8398,
+    "f1_macro": 0.8122,
+    "train_time_sec": 74
+  },
+  "GRU": {
+    "accuracy": 0.8373,
+    "precision_macro": 0.8067,
+    "recall_macro": 0.8508,
+    "f1_macro": 0.8257,
+    "train_time_sec": 47
+  },
+  "DistilBERT": {
+    "accuracy": 0.8527,
+    "precision_macro": 0.8287,
+    "recall_macro": 0.8609,
+    "f1_macro": 0.8433,
+    "train_time_sec": 2397
+  },
+  "SimpleRNN": {
+    "accuracy": 0.7953,
+    "precision_macro": 0.7674,
+    "recall_macro": 0.7841,
+    "f1_macro": 0.7731,
+    "train_time_sec": 70
+  }
+}

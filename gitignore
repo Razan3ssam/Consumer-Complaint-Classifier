@@ -1,0 +1,21 @@
+# Python / environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Gradio temp files
+.gradio/
+flagged/
+
+# Large files (GitHub blocks files over 100 MB)
+model/
+*.safetensors
+*.keras
+*.zip
+*.bin
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
